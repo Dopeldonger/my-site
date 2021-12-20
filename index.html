@@ -9,19 +9,21 @@
 </head>
 <body>
 <main>
-    <header class="main-header">
-        <a href="" class="logo">
-            <img src="./Thrivetalk.jpg" alt="Логотип" width="102" height="19">;
-        </a>
-        <nav class="nav">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Blog</a></li>
-            </ul>
-        </nav>
-        <a class="contact-us" href="">Contact us</a>
+    <header class="main-header"> <!--100%-->
+        <div class="main-header__wrapper"> <!--центрирующаяся обертка-->
+            <a href="" class="logo">
+                <img src="./Thrivetalk.jpg" alt="Логотип" width="102" height="19">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a class="nav__link nav__link--active" href="">Home</a></li>
+                    <li><a class="nav__link" href="">About</a></li>
+                    <li><a class="nav__link" href="">Services</a></li>
+                    <li><a class="nav__link" href="">Blog</a></li>
+                </ul>
+            </nav>
+            <a class="contact-us" href="">Contact us</a>
+        </div>
     </header>
     <section class="about-us">
         <div class="about-us__contain">
@@ -32,13 +34,13 @@
                     Our highly talented therapists can help you with a range of issues including relationships,
                     sex, PTSD, depression, social anxiety, or even just caring for yourself more.
                 </p>
-                <div class="about-us__img-wrapper">
-                    <img src="1.jpg" alt="беседующие люди" width="522" height="607">
+                <div class="about-us__more-info">
+                    <a href="">who am i</a>
+                    <a href="">what do i do</a>
                 </div>
             </div>
-            <div class="about-us__more-info">
-                <a href="">who am i</a>
-                <a href="">what do i do</a>
+            <div class="about-us__img-wrapper">
+                <img src="1.png" alt="беседующие люди" width="522" height="607">
             </div>
         </div>
     </section>
