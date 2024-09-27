@@ -9,22 +9,24 @@
 </head>
 <body>
 <main>
-    <header class="main-header">
-        <a href="" class="logo">
-            <img src="./Thrivetalk.jpg" alt="Логотип" width="102" height="19">;
-        </a>
-        <nav class="nav">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Blog</a></li>
-            </ul>
-        </nav>
-        <a class="contact-us" href="">Contact us</a>
+    <header class="main-header"> <!--100%-->
+        <div class="main-header__wrapper"> <!--центрирующаяся обертка-->
+            <a href="" class="logo">
+                <img src="./Thrivetalk.jpg" alt="Логотип" width="102" height="19">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a class="nav__link nav__link--active" href="">Home</a></li>
+                    <li><a class="nav__link" href="">About</a></li>
+                    <li><a class="nav__link" href="">Services</a></li>
+                    <li><a class="nav__link" href="">Blog</a></li>
+                </ul>
+            </nav>
+            <a class="contact-us" href="">Contact us</a>
+        </div>
     </header>
     <section class="about-us">
-        <div class="about-us__contain">
+        <div class="about-us__contain wrapper">
             <div class="about-us__text-wrapper">
                 <h1 class="about-us__titlename">Thrivetalk</h1>
                 <p class="about-us__tagline">helping you thrive in all areas of life</p>
@@ -32,18 +34,18 @@
                     Our highly talented therapists can help you with a range of issues including relationships,
                     sex, PTSD, depression, social anxiety, or even just caring for yourself more.
                 </p>
-                <div class="about-us__img-wrapper">
-                    <img src="1.jpg" alt="беседующие люди" width="522" height="607">
+                <div class="about-us__more-info">
+                    <a href="">who am i</a>
+                    <a href="">what do i do</a>
                 </div>
             </div>
-            <div class="about-us__more-info">
-                <a href="">who am i</a>
-                <a href="">what do i do</a>
+            <div class="about-us__img-wrapper">
+                <img src="1.png" alt="беседующие люди" width="522" height="607">
             </div>
         </div>
     </section>
     <section class="why-thrive">
-        <div class="why-thrive__contain">
+        <div class="why-thrive__contain wrapper">
             <div class="why-thrive__text-wrapper">
                 <h2 class="why-thrive__title">Why Thrive?</h2>
                 <p class="why-thrive__text">
@@ -62,7 +64,7 @@
 
 
     <section class="we-offer">
-        <div class="we-offer__contain">
+        <div class="we-offer__contain wrapper">
             <div class="we-offer__text-wrapper">
                 <h2 class="we-offer__title">about us</h2>
                 <p class="we-offer__text">We want to help you thrive! Whether you are just looking for someone to talk
@@ -74,57 +76,67 @@
             </div>
             <h2 class="list-title">we can help you with</h2>
             <ul class="feature-list">
-                <li class="feature">Weight Lifting</li>
-                <li class="feature">Running & Spinning</li>
-                <li class="feature">Pumping Iron</li>
-                <li class="feature">Pumping Iron</li>
+                <li class="feature feature-1">Weight Lifting</li>
+                <li class="feature feature-2">Running & <br>Spinning</li>
+                <li class="feature feature-3">Pumping Iron</li>
+                <li class="feature feature-4">Pumping Iron</li>
             </ul>
         </div>
     </section>
     <section class="health">
+        <div class="health__contain wrapper">
         <ul class="health__list">
-            <li>Physical Health</li>
-            <li>Mental Health</li>
-            <li>Nutrition
-                <div class="background-img">
-                    <img src="./Mask%20Group.png" alt="клубничный коктейль" width="480" height="480">
-                </div>
+            <li class="health-f health__function-1">Physical <br>Health</li>
+            <li class="health-f health__function-2">Mental <br>Health</li>
+            <li class="health-f health__function-3">Nutrition
+                <!--<div class="background-img">
+                    <img src="./Mask.png" alt="клубничный коктейль" width="480" height="480">
+                </div>-->
             </li>
-            <li>Gymnastics</li>
-            <li>Crossfit</li>
-            <li>Aerobics</li>
+            <li class="health-f health__function-4">Gymnastics</li>
+            <li class="health-f health__function-5">Crossfit</li>
+            <li class="health-f health__function-6">Aerobics</li>
         </ul>
+        </div>
     </section>
     <section class="habits">
+        <div class="habits_contain wrapper">
         <ul class="tagline-list">
             <li class="tagline">
                 <h3>Nutritional Plans</h3>
-                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t.</p>
+                <p>Nutritional Facts on some shitty things that <br> you don’t care about and even we don’t.
+                    I <br> need to replace these copy </p>
             </li>
             <li class="tagline">
                 <h3>Weight Loss</h3>
-                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t.</p>
+                <p>Nutritional Facts on some shitty things that <br> you don’t care about and even we don’t.
+                    I <br> need to replace these copy</p>
             </li>
             <li class="tagline">
                 <h3>Mental Peace</h3>
-                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t.</p>
+                <p>Nutritional Facts on some shitty things that <br> you don’t care about and even we don’t.
+                    I <br> need to replace these copy</p>
             </li>
             <li class="tagline">
                 <h3>Home Training</h3>
-                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t.</p>
+                <p>Nutritional Facts on some shitty things that <br> you don’t care about and even we don’t.
+                    I <br> need to replace these copy</p>
             </li>
             <li class="tagline">
                 <h3>Work/Life Balance</h3>
-                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t.</p>
+                <p>Nutritional Facts on some shitty things that <br> you don’t care about and even we don’t.
+                    I <br> need to replace these copy</p>
             </li>
             <li class="tagline">
                 <h3>Cardio</h3>
-                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t.</p>
+                <p>Nutritional Facts on some shitty things that <br> you don’t care about and even we don’t.
+                    I <br> need to replace these copy</p>
             </li>
         </ul>
+        </div>
     </section>
     <section class="more-about-us">
-        <div class="more-about-us__contain">
+        <div class="more-about-us__contain wrapper">
             <div class="more-about-us__img-wrapper">
                 <img src="linkedin-sales-navigator-402831.jpg" alt="улыбающийся парень" width="480" height="800">
             </div>
@@ -141,6 +153,7 @@
 
 
     <section class="contact">
+        <div class="contact__wrapper wrapper">
         <div class="contact__text-wrapper">
             <h2 class="contact__title">Contact us</h2>
             <p class="contact__lead">Ready. Set. Smile</p>
@@ -153,9 +166,10 @@
         <div class="contact__img-wrapper">
             <img src="./charles-etoroma-390119.jpg" alt="Черный парень" width="480" height="800">
         </div>
+        </div>
     </section>
     <footer class="footer-main">
-        <div class="footer-main__wrapper">
+        <div class="footer-main__wrapper wrapper">
             <div class="footer-contain">
                 <div class="footer__img-wrapper">
                     <img src="autumn-goodman-242825.jpg" alt="человек-осень" width="570" height="380">;
@@ -170,7 +184,7 @@
                     <li>
                         <h3 class="footer__info">enfold health</h3>
                         <p>Main Street 1, Olcott<br> Buffalo, United States</p>
-                        <a href="tel:+555283784333">+555 283 784 333</a>
+                        <a href="tel:+555283784333">+555 283 784 333</a> <br>
                         <a href="">office@enfold-health.com</a>
                     </li>
                     <li>
